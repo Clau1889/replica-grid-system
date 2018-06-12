@@ -16,6 +16,9 @@
 .row:before, .row:after{
     content: "";
     display: table;
+}
+
+.row:after{
     clear: both;
 }
 
@@ -24,7 +27,7 @@
     float:left;
     min-height: 7px;
     /*gutters*/
-    padding: 1rem;
+    padding:1rem;
 }
 
 /* calculo matematico del 100% del sitio entre las 12 columnas y multiplicarlo por el numero de cada columna 
